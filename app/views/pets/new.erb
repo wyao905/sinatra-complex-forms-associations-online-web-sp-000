@@ -10,7 +10,7 @@
   <p>Select an existing owner or create a new one below.</p>
   <h3>Existing Pets</h3>
   <% @owners.each do |owner| %>
-    <input type="radio" name="owner_name" id="<%= owner.id %>" value="<%= owner.id %>"><%= owner.name %></input><br>
+    <input type="radio" name="owner_id" id="<%= owner.id %>" value="<%= owner.id %>"><%= owner.name %></input><br>
   <% end %>
   <br>
   
